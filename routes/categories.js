@@ -1,6 +1,6 @@
 const express = require("express")
 const { validationResult } = require("express-validator");
-const DataManager = require("../managers/DataManger")
+const DataManager = require("../managers/DataManager")
 
 const router = express.Router()
 

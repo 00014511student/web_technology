@@ -16,7 +16,7 @@
   display: block;
 }
 
-.form__input input {
+.form__input .input {
   display: block;
   width: 100%;
   outline: none;
@@ -25,13 +25,14 @@
   font-size: 1.5rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
+  background-color: white;
 }
 
-.form__input input.error-input {
+.form__input .input.error-input {
   border-color: red;
 }
 
-.form__input input:not(.error-input):focus {
+.form__input .input:not(.error-input):focus {
   border-color: rgb(59, 105, 231);
 }
 
@@ -45,4 +46,8 @@
 .form__input .error {
   color: red;
   font-size: 1.2rem;
+}
+
+.spending__form {
+  width: 40%;
 }
