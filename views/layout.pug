@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="preconnect", href="https://fonts.googleapis.com")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap")
+        link(rel="stylesheet", href="/style/app.css")
+        link(rel="stylesheet", href="/style/header.css")
+        link(rel="stylesheet", href="/style/section.css")
+        block style
+        title Spending Application
+    body 
+        header.header
+            .container
+                .flex.justify-between.align-center
+                    .header__logo.flex.align-center
+                        img(src="/images/logo.svg")
+                        p Finance Management
+                    .header__links 
+                        ul.header__list.flex
+                            li.header__list_item
+                                a(href="/categories").header__list_link Categories
+                            li.header__list_item
+                                a(href="").header__list_link Spendings
+
+        main 
+            block content
+            
