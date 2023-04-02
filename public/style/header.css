@@ -13,7 +13,7 @@
 }
 
 .header__list_item {
-  transition: all 2s linear;
+  transition: color 2s linear;
 }
 
 .header__list_item :hover {

@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.resolve(__dirname, "public")))
 
 app.get("/", (req, res) => {
-    res.render("spendings/spendings.pug")
+    res.render("home.pug")
 })
 
 const { categoryRoutes } = require("./routes/categories.js")
